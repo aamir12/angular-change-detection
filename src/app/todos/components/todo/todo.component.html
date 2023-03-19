@@ -6,7 +6,10 @@
 
 <div><button (click)="changeText()">Change text</button></div>
 <div><button (click)="changeFilter()">Change filter</button></div>
+<div><button (click)="manuallyDetect()">Manually Trigger</button></div>
 
 <div *ngFor="let user of users">
   {{ user.name }}
 </div>
+
+<app-test-chid></app-test-chid>
